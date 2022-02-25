@@ -3,13 +3,20 @@
 <html lang="en">
 
 <head>
+
+  <!-- Browser Display -->
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#48c78f">
 
+  <!-- Metadata -->
+
   <title>CAERS</title>
   <meta name="description" content="Find out exams that advance your career.">
   <meta name="author" content="TeamSSA">
+
+  <!-- SEO TAGS -->
 
   <meta property="og:title" content="CAERS">
   <meta property="og:type" content="website">
@@ -17,17 +24,24 @@
   <meta property="og:description" content="Find out exams that advance your career.">
   <meta property="og:image" content="image.png">
 
+  <!-- Website Icons -->
+
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  <link rel="stylesheet" href="style.css?v=1.0">
+  <!-- CSS LIBRARY SOURCE -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
 <body>
 
-  <nav class="navbar is-success">
+  <!-- Navigation Bar-->
+
+  <nav class="navbar is-success animate__animated animate__fadeInDown">
     <div class="navbar-brand">
       <a class="navbar-item is-size-4 has-text-weight-bold">CAERS</a>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navItem">
@@ -38,29 +52,22 @@
     </div>
     <div id="navItem" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href="https://caers.netlify.app">Home</a>
-        <a class="navbar-item" href="#About">About</a>
+        <a class="navbar-item" onclick="fetchPage('landingpage')">Home</a>
+        <a class="navbar-item" onclick="fetchPage('about')">About</a>
       </div>
     </div>
   </nav>
-  <section class="hero is-success is-halfheight">
-    <div class="hero-body">
-      <p class="title">Career Advancing Exams Recommendation System.</p>
-    </div>
-  </section>
-  <div class="is-flex is-justify-content-center my-5">
-    <button onclick="qualifications()" class="button is-success">Get Started</button>
-  </div>
-  <div id="qualifications" class="is-hidden is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
-  <p class="is-size-3">Choose Qualifications</p>
-  <div class="buttons">
-    <button class="button is-info">10th</button>
-    <button class="button is-success">12th</button>
-    <button class="button is-primary">UnderGraduate</button>
-  </div>
-  </div>
+
+  <!-- Root Container for all pages-->
+
+  <div class="animate__animated animate__fadeInUp" id="root"></div>
+
+  <!--Javascript Sources-->
+
   <script src="JS/navbar.js"></script>
+  <script src="JS/fetch.js"></script>
   <script src="JS/landingpage.js"></script>
+
 </body>
 
 </html>
