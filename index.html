@@ -33,17 +33,15 @@
   <!-- CSS LIBRARY SOURCE -->
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
 </head>
 
 <body>
 
   <!-- Navigation Bar-->
 
-  <nav class="navbar is-success animate__animated animate__fadeInDown">
+  <nav class="navbar is-success">
     <div class="navbar-brand">
-      <a class="navbar-item is-size-4 has-text-weight-bold">CAERS</a>
+      <a onclick="show('banner')" class="navbar-item is-size-4 has-text-weight-bold">CAERS</a>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navItem">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -52,21 +50,101 @@
     </div>
     <div id="navItem" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" onclick="fetchPage('landingpage')">Home</a>
-        <a class="navbar-item" onclick="fetchPage('about')">About</a>
+        <a class="navbar-item">Home</a>
+        <a class="navbar-item">About</a>
       </div>
     </div>
   </nav>
 
-  <!-- Root Container for all pages-->
+  <!--Banner-->
 
-  <div class="animate__animated animate__fadeInUp" id="root" style="text-align:center;"></div>
+  <div class="is-hidden" id="banner">
+    <section class=" hero is-success is-halfheight">
+      <div class="hero-body">
+        <p class="title">Career Advancing Exams Recommendation System.</p>
+      </div>
+    </section>
+    <div class="is-flex is-justify-content-center my-5">
+      <button onclick="show('qualifications'),show('banner')" class="button is-success">Get Started</button>
+    </div>
+  </div>
+  <div id="qualifications" class="is-hidden is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
+    <i class="is-size-4">Select your options</i>
+    <div class="buttons">
+      <button class="button is-medium is-info" onclick="show('tenth')">10th</button>
+      <button class="button is-medium is-info" onclick="show('twelveth')">12th</button>
+      <button class="button is-medium is-info" onclick="show('UnderGraduate')">UnderGraduate</button>
+    </div>
+  </div>
+
+  <br>
+
+  <!-- TENTH -->
+
+  <div class="is-hidden" id="tenth">
+
+    <div class="buttons is-flex is-justify-content-center">
+      <button onclick="show('tenthRailway')" class="button is-primary">Railway</button>
+          <button onclick="show('tenthDefense')" class="button is-primary">Defense</button>
+
+    </div>
+
+    <!-- Tenth Railway -->
+
+    <div class="is-hidden has-text-centered" id="tenthRailway">
+
+      <div class="box">
+        <p class="title">RRB GROUP D</p>
+        <p class="subtitle">
+          Post: ITI post <br>
+          Age limit: 18-33 <br>
+          Location: All over India <br>
+          Salary :Gross Salary Rs. 22,500-Rs.25,380
+        </p>
+      </div>
+
+      <!-- Example empty box start -->
+      <div class="box">
+        <p class="title"></p>
+        <p class="subtitle">
+
+        </p>
+      </div>
+      <!--end-->
+
+
+    </div>
+
+    <!--Tenth Defense-->
+
+    <div class="is-hidden has-text-centered" id="tenthDefense">
+
+      <div class="box">
+        <p class="title">10 dwfense</p>
+        <p class="subtitle">
+          Post: ITI post <br>
+          Age limit: 18-33 <br>
+          Location: All over India <br>
+          Salary :Gross Salary Rs. 22,500-Rs.25,380
+        </p>
+      </div>
+
+      <!-- Example empty box start -->
+      <div class="box">
+        <p class="title"></p>
+        <p class="subtitle">
+
+        </p>
+      </div>
+      <!--end-->
+
+
+    </div>
+  </div>
 
   <!--Javascript Sources-->
 
   <script src="JS/navbar.js"></script>
-  <script src="JS/fetch.js"></script>
-  <script src="JS/landingpage.js"></script>
   <script src="JS/showHide.js"></script>
 
 </body>
