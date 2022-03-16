@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#43a047">
+
+  <title>CAPERS</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+</head>
+
+<body class="container" onload="parse('testimonials')">
+  <nav>
+    <ul>
+      <li>
+        <details role="list">
+          <summary aria-haspopup="listbox" role="button"><i class="fa-solid fa-bars"></i></summary>
+          <ul role="listbox">
+            <li><a href="#about"><i class="fa-solid fa-circle-info"></i> About</a></li>
+            <li><a href="#testimonials"><i class="fa-solid fa-award"></i> Testimonials</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+    <ul>
+      <li><strong>C A P E R S</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#" onclick="DarkMode()" role="button"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <h3>Career Advancing Posts & Exams Recommendation System. </h3>
+
+    <details role="list">
+      <summary aria-haspopup="listbox" role="button"><i class="fa-solid fa-book-open-reader"></i> &nbsp; Find Examinations</summary>
+      <ul role="listbox">
+        <li><a href="Exams/Tenth.html">After Tenth</a></li>
+        <li><a href="Exams/Twelth.html">After Twelth</a></li>
+        <li><a href="Exams/Undergraduate.html">After Graduation</a></li>
+      </ul>
+    </details>
+
+    <details role="list">
+      <summary aria-haspopup="listbox" role="button"><i class="fa-solid fa-briefcase"></i> &nbsp; Find Direct Posts</summary>
+      <ul role="listbox">
+        <li><a href="Posts/Tenth.html">Tenth</a></li>
+        <li><a href="Posts/Twelth.html">Tweltveth</a></li>
+        <li><a href="Posts/Undergraduate.html">Undergraduate</a></li>
+      </ul>
+    </details>
+  </article>
+
+  <div align="center" id="testimonials">
+    <h1>Testimonials</h1>
+    <article>
+      <ul id="list"></ul>
+    </article>
+  </div>
+  <div align="center" id="about">
+    <h1>About</h1>
+    Capers was created with a joint venture between three students to provide a free and simple experience to those in serious need of career advice.
+  </div>
+  <br>
+  <br>
+  <div align="center">
+    <i>Site designed by Animesh | copyleft 2022.</i>
+    <br><br>
+  </div>
+  <script src="JavaScript/DarkMode.js"></script>
+  <script src="JavaScript/fetch.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
