@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="utf-8">
@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
 </head>
 
-<body class="container">
+<body class="container" onload="parse('Exams/Tenth/Railway')">
   <nav>
     <ul>
       <li>
@@ -26,7 +26,7 @@
       </li>
     </ul>
     <ul>
-      <li><strong>C A P E R S</strong></li>
+      <li><strong><a href="/">C A P E R S</a></strong></li>
     </ul>
     <ul>
       <li><a href="#" onclick="DarkMode()" role="button"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
@@ -34,18 +34,16 @@
   </nav>
 
 
+  <article>
+    <ul id="list"></ul>
+  </article>
 
 
-
-
-
-
-
-<div align="center">
-  <i>Site designed by Animesh | copyleft 2022.</i>
-</div>
+  <div align="center">
+    <i>Site designed by Animesh | copyleft 2022.</i>
+  </div>
   <script src="../JavaScript/DarkMode.js"></script>
-  <script src="../JavaScript/Fetch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../JavaScript/fetch.js"></script>
 </body>
 
 </html>
