@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <!-- Browser Display -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#48c78f">
+
+  <!-- Metadata -->
+
+  <title>CAERS</title>
+  <meta name="description" content="Find out exams that advance your career.">
+  <meta name="author" content="TeamSSA">
+
+  <!-- SEO TAGS -->
+
+  <meta property="og:title" content="CAERS">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://n-ce.github.io/CAERS">
+  <meta property="og:description" content="Find out exams that advance your career.">
+  <meta property="og:image" content="image.png">
+
+  <!-- Website Icons -->
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- CSS LIBRARY SOURCE -->
+
+  <link rel="stylesheet" href="bulma.min.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar-->
+
+  <nav class="navbar is-success">
+    <div class="navbar-brand">
+      <a onclick="show('banner')" class="navbar-item is-size-4 has-text-weight-bold">CAERS</a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navItem">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navItem" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/">Home</a>
+        <a class="navbar-item" href="https://github.com/n-ce/CAERS">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <!--Banner-->
+
+  <div class="is-hidden" id="banner">
+    <section class=" hero is-success is-halfheight">
+      <div class="hero-body">
+        <p class="title">Career Advancing Exams Recommendation System.</p>
+      </div>
+    </section>
+    <div class="is-flex is-justify-content-center my-5">
+      <button onclick="show('qualifications'),show('banner')" class="button is-success">Get Started</button>
+    </div>
+  </div>
+  <div id="qualifications" class="is-hidden is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
+    <i class="is-size-4">Select your options</i>
+    <div class="buttons">
+      <button class="button is-medium is-info" onclick="show('tenth')">10th</button>
+      <button class="button is-medium is-info" onclick="show('twelveth')">12th</button>
+      <button class="button is-medium is-info" onclick="show('underGraduate')">UnderGraduate</button>
+    </div>
+  </div>
+
+  <br>
+
+  <!-- TENTH -->
+
+  <div class="is-hidden" id="tenth">
+
+    <div class="buttons is-flex is-justify-content-center">
+      <button onclick="show('tenthRailway')" class="button is-primary">Railway</button>
+      <button onclick="show('tenthDefense')" class="button is-primary">Defense</button>
+      <button onclick="show('tenthNavy')" class="button is-primary">Navy</button>
+
+    </div>
+
+    <!-- Tenth Railway -->
+
+    <div class="is-hidden has-text-centered" id="tenthRailway">
+
+      <div class="box">
+        <p class="title">RRB GROUP D</p>
+        <p class="subtitle">
+          Post: ITI post <br>
+          Age limit: 18-33 <br>
+          Location: All over India <br>
+          Salary :Gross Salary Rs. 22,500-Rs.25,380
+        </p>
+      </div>
+
+      <div class="box">
+        <p class="title">RRB ALP</p>
+        <p class="subtitle">
+          Post: ITI post <br>
+          Age limit: 18-31 years <br>
+          Location: All over India <br>
+          Salary: Net salary 37000
+        </p>
+      </div>
+
+      <div class="box">
+        <p class="title">DLW Apprentice Recruitment</p>
+        <p class="subtitle">
+          Post :NON-ITI Apprentices <br>
+          Age limit: 15-22 years <br>
+          Location : Banarasi, Uttar Pradesh <br>
+          Salary: Rs 5,200-20,200 + 1,900/- GP
+        </p>
+      </div>
+
+      <div class="box">
+        <p class="title">RPF Constable</p>
+        <p class="subtitle">
+          Post: Constable <br>
+          Age limit: 18-25 <br>
+          Location: All over India <br>
+          Salary : basic pay Rs_ 21700
+        </p>
+      </div>
+
+      <div class="box">
+        <p class="title">Railway Apprentice</p>
+        <p class="subtitle">
+          Post : ITI posts <br>
+          Age limit:15-24 <br>
+          Location : Western Zone <br>
+          Salary : ₹ 6000 to ₹8000
+        </p>
+      </div>
+
+
+    </div>
+
+    <!--Tenth Defense-->
+
+    <div class="is-hidden has-text-centered" id="tenthDefense">
+
+      <div class="box">
+        <p class="title">Multi-Tasking Staff -Director
+          General Armed Forces Medical Services</p>
+        <p class="subtitle">
+          Post: Gardener,Watchman,Peon ,Messenger,Sweeper,Daftary <br>
+          Age limit: 18 -25 years <br>
+          Location: all over India <br>
+          Salary : Rs 18000-56000
+        </p>
+      </div>
+
+
+      <div class="box">
+        <p class="title">Ordence factory board apprenticeship</p>
+        <p class="subtitle">
+          Post : non ITI apprentice <br>
+          Age limit: 15-24 <br>
+          Location :All over India <br>
+          Salary : ₹ 0.9 Lakhs to ₹ 1.2 Lakhs./year <br>
+        </p>
+      </div>
+
+      <div class="box">
+        <p class="title">BSF Constable</p>
+        <p class="subtitle">
+          Post : general constable duty <br>
+          Age limit :18-23 years <br>
+          Location :The functional areas of BSF include the India-Pakistan border and India-Bangladesh border <br>
+          Salary : Rs 21700 – 69100
+        </p>
+      </div>
+
+      <div class="box">
+        <p class="title">ITBP Constable</p>
+        <p class="subtitle">
+          Post : general constable duty <br>
+          Age limit : 18-23 years <br>
+          Location: ITBP is deployed in the India- China border region <br>
+          Salary :Rs 21700-69000
+        </p>
+      </div>
+
+      <div class="box">
+        <p class="title">Assam Rifles</p>
+        <p class="subtitle">
+          Post : general constable duty <br>
+          Age limit: 18-23 <br>
+          Location: bordar of Assam and Myanmar <br>
+          Salary : Rs 21000- 69000
+        </p>
+      </div>
+
+      <div class="box">
+        <p class="title">West Bengal Police Constable</p>
+        <p class="subtitle">
+          Post : constable <br>
+          Age limit : 18-25 years <br>
+          Location : all over WEST BENGAL <br>
+          Salary: 21000 -40000
+        </p>
+      </div>
+
+    </div>
+
+    <!--Tenth Navy-->
+
+    <div class="is-hidden has-text-centered" id="tenthNavy">
+
+      <div class="box">
+        <p class="title"></p>
+        <p class="subtitle">
+
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Twelveth -->
+
+  <div class="is-hidden" id="twelveth">
+
+    <div class="buttons is-flex is-justify-content-center">
+      <button onclick="show('twelvethRailway')" class="button is-primary">Railway</button>
+      <button onclick="show('twelvethDefense')" class="button is-primary">Defense</button>
+      <button onclick="show('twelvethNavy')" class="button is-primary">Navy</button>
+
+    </div>
+
+  </div>
+  
+  <!-- Undergraduate -->
+
+  <div class="is-hidden" id="undergraduate">
+
+    <div class="buttons is-flex is-justify-content-center">
+      <button onclick="show('undergraduateRailway')" class="button is-primary">Railway</button>
+      <button onclick="show('undergraduateDefense')" class="button is-primary">Defense</button>
+      <button onclick="show('undergraduateNavy')" class="button is-primary">Navy</button>
+
+    </div>
+
+  </div>
+  <!--Javascript Sources-->
+
+  <script src="navbar.js"></script>
+  <script src="showHide.js"></script>
+
+</body>
+
+</html>
