@@ -1,37 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
 
-/* Teal Light scheme (Default) */
+/* Green Light scheme (Default) */
 /* Can be forced with data-theme="light" */
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-  --primary: #00897b;
-  --primary-hover: #00796b;
-  --primary-focus: rgba(0, 137, 123, 0.125);
+  --primary: #43a047;
+  --primary-hover: #388e3c;
+  --primary-focus: rgba(67, 160, 71, 0.125);
   --primary-inverse: #FFF;
 }
 
-/* Teal Dark scheme (Auto) */
+/* Green Dark scheme (Auto) */
 /* Automatically enabled if user has Dark mode enabled */
 @media only screen and (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --primary: #00897b;
-    --primary-hover: #009688;
-    --primary-focus: rgba(0, 137, 123, 0.25);
+    --primary: #43a047;
+    --primary-hover: #4caf50;
+    --primary-focus: rgba(67, 160, 71, 0.25);
     --primary-inverse: #FFF;
   }
 }
 
-/* Teal Dark scheme (Forced) */
+/* Green Dark scheme (Forced) */
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {
-  --primary: #00897b;
-  --primary-hover: #009688;
-  --primary-focus: rgba(0, 137, 123, 0.25);
+  --primary: #43a047;
+  --primary-hover: #4caf50;
+  --primary-focus: rgba(67, 160, 71, 0.25);
   --primary-inverse: #FFF;
-}
-
-
-
+                        }
 html,body{
     margin:0;
   padding:0;
@@ -39,9 +36,7 @@ html,body{
 div,nav,h3,h1,body{
   font-family: 'League Spartan',sans-serif;
 }
-strong{
-  font-size: 2rem;
-}
+ strong{font-size:1.5rem}
 article{
-background-color:#0873
+background-color:#4a43
   }
