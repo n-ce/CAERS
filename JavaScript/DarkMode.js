@@ -1,6 +1,6 @@
 let DarkMode = () => {
   if (
-    document.querySelector('html').getAttribute('data-theme') == 'light'
+    document.querySelector('html').getAttribute('data-theme') !== 'dark'
   )
   {
     document.querySelector('html').setAttribute('data-theme', 'dark');

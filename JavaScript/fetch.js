@@ -11,7 +11,7 @@ function parse(Y) {
           list.innerHTML = `<u>${data[i].name}</u><br><i>"${data[i].quote}"</i>`;
         }
         else {
-          list.innerHTML = `${data[i].name}<br>${data[i].post}<br>${data[i].salary}<br>`;
+          list.innerHTML = `<hgroup><h2>${data[i].name}</h2><h3><br>${data[i].post}<br>${data[i].salary}<br></h3></hgroup>`;
         }
         document.getElementById('list').appendChild(list);
       }
