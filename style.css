@@ -28,15 +28,34 @@
   --primary-hover: #4caf50;
   --primary-focus: rgba(67, 160, 71, 0.25);
   --primary-inverse: #FFF;
-                        }
-html,body{
-    margin:0;
-  padding:0;
 }
-div,nav,h3,h1,body{
-  font-family: 'League Spartan',sans-serif;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
- strong{font-size:1.5rem}
-article{
-background-color:#4a43
+
+div,
+nav,
+h3,
+h1,
+body {
+  font-family: 'League Spartan', sans-serif;
+}
+
+strong {
+  font-size: 1.5rem
+}
+
+article {
+  background-color: #4a43;
+  animation: fadeUp 1s;
+}
+
+@keyframes fadeUp{
+  from{
+    opacity: 0;
+    transform: translateY(100%);
   }
+}
