@@ -10,32 +10,32 @@
     "id": "2",
     "name": "RRB ALP",
     "post": "ITI posts",
-    "salary": "",
-    "location": ""
+    "salary": "Rs 37000",
+    "location": "all over India"
 
   },
   {
     "id": "3",
-    "name": "",
-    "post": "",
-    "salary": "",
-    "location": ""
+    "name": "RPF constable",
+    "post": "constable",
+    "salary": "Rs 27100",
+    "location": "all over India"
 
   },
   {
     "id": "4",
-    "name": "",
-    "post": "",
-    "salary": "",
-    "location": ""
+    "name": "DLW Apprentice  Recruitment",
+    "post": "Non-ITI Apprentices",
+    "salary": "Rs 5,200-20,200 + 1,900/- GP",
+    "location": "Banarasi, Uttar Pradesh"
 
     },
   {
     "id": "5",
-    "name": "",
-    "post": "",
-    "salary": "",
-    "location": ""
+    "name": "Railway apprentice",
+    "post": "ITI post",
+    "salary": "Rs 60000 to 80000",
+    "location": "Western zone"
 
     }
 ]

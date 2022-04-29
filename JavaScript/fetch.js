@@ -11,9 +11,12 @@ function parse(Y) {
           list.innerHTML = `<u>${data[i].name}</u><br><i>"${data[i].quote}"</i>`;
         }
         else {
-          list.innerHTML = `<hgroup><h2>${data[i].name}</h2><h3><br>${data[i].post}<br>${data[i].salary}<br></h3></hgroup>`;
+
+          list.innerHTML = `<hgroup><h2>${data[i].name}</h2><h3><br>${data[i].post}<br>${data[i].salary}
+<br>${data[i].location}<br></h3></hgroup>`;
         }
-        document.getElementById('list').appendChild(list);
+
+document.getElementById('list').appendChild(list);
       }
     })
     .catch(function(err) {
