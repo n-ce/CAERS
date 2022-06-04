@@ -1,15 +1,15 @@
 const ul = document.getElementById('list');
 
-function parse(Y) {
-  fetch("../Databases/" + Y + ".json")
+let parse = (fileName) => {
+  fetch("../Databases/" + fileName + ".json")
     .then(res => res.json())
     .then(data =>
     {
       ul.innerHTML = null;
       for (var i = 0; i < data.length; i++) {
         var list = document.createElement("li");
-        if (Y == 'testimonials') {
-          list.innerHTML = `<u>${data[i].name}</u><br><i>"${data[i].quote}"</i>`;
+        if (fileName == 'testimonials') {
+          list.innerHTML = `<u>${data[i].name}</u><br>"${data[i].quote}"`;
         }
         else {
           list.innerHTML =

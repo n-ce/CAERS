@@ -1,0 +1,18 @@
+[
+  {
+  "id": "1",
+  "name": "Central",
+  "post": "SSC CSHL/LDS",
+  "age limit ": "18 to 35 years ",
+  "salary ": "19000 to 920000 rupees "
+    
+},
+  {
+    "id": "2",
+    "name": "Central",
+    "post": "SSC stenographer",
+    "age limit": "18 to 35 years ",
+    "salary ": "1800 to 35000 rupees"
+    
+  }
+]
