@@ -15,15 +15,27 @@ let parse = (fileName) => {
         else {
           list.innerHTML =
             `<hgroup>
-          <h2>${data[i].name}</h2>
-          <h3><br>
+          <h3>${data[i].name}</h3>
+          <h4><br>
           ${data[i].post}<br>
           ${data[i].salary}<br>
           ${data[i].location}<br>
-          </h3>
+          </h4>
           </hgroup>`;
           ul.appendChild(list);
         }
       }
     });
 }
+
+// list collapse strategy
+
+for (let j = 2; j < 17; j++)
+  document.querySelectorAll('li')[j].addEventListener("click", () => {
+    document.getElementById('recommendations').style.opacity= '100%';
+    location.href = '#recommendations';
+    for (let k = 1; k < 4; k++)
+      if (document.querySelectorAll('details')[k].hasAttribute('open') == true) {
+        document.querySelectorAll('details')[k].toggleAttribute('open');
+      }
+  });
