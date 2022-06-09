@@ -10,6 +10,7 @@ let parse = (fileName) => {
         var list = document.createElement("li");
         if (fileName == 'testimonials') {
           list.innerHTML = `<u>${data[i].name}</u><br>"${data[i].quote}"`;
+          document.getElementById('list2').appendChild(list);
         }
         else {
           list.innerHTML =
@@ -21,8 +22,8 @@ let parse = (fileName) => {
           ${data[i].location}<br>
           </h3>
           </hgroup>`;
+          ul.appendChild(list);
         }
-        ul.appendChild(list);
       }
     });
 }

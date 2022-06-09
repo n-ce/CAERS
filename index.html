@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <meta name="theme-color" content="#43a047">
   <meta name="author" content="Animesh Nath">
-  <meta name="description" content="career advancement posts and exams recommendation system.">
+  <meta name="description" content="career advancement exams recommendation system.">
   <meta name="keywords" content="career, counselling, exams, jobs">
 
   <title>CAPERS</title>
@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
-  
+
 </head>
 
 <body class="container" onload="parse('testimonials')">
@@ -23,7 +23,7 @@
     <ul>
       <li>
         <details role="list">
-          <summary aria-haspopup="listbox" role="link" ><i class="fa-solid fa-bars"></i></summary>
+          <summary aria-haspopup="listbox" role="link"><i class="fa-solid fa-bars"></i></summary>
           <ul role="listbox">
             <li><a href="#about"><i class="fa-solid fa-circle-info"></i> About</a></li>
             <li><a href="#testimonials"><i class="fa-solid fa-award"></i> Testimonials</a></li>
@@ -43,37 +43,53 @@
     <h3>Career Advancing Posts & Exams Recommendation System. </h3>
 
     <details role="list">
-      <summary aria-haspopup="listbox" role="button"><i class="fa-solid fa-book-open-reader"></i> &nbsp; Find Examinations</summary>
+      <summary aria-haspopup="listbox" role="button"><i class="fa-solid fa-book-open-reader"></i> &nbsp; 10th Pass</summary>
       <ul role="listbox">
-        <li><a href="Exams/Tenth.html">After Tenth</a></li>
-        <li><a href="Exams/Twelth.html">After Twelth</a></li>
-        <li><a href="Exams/Undergraduate.html">After Graduation</a></li>
+        <li onclick="parse('Tenth/bankEducation')">Bank Education</li>
+        <li onclick="parse('Tenth/defense')">Defense</li>
+        <li onclick="parse('Tenth/police')">Police</li>
+        <li onclick="parse('Tenth/postOffice')">Post Office</li>
+        <li onclick="parse('Tenth/railway')">Railway</li>
       </ul>
     </details>
 
     <details role="list">
-      <summary aria-haspopup="listbox" role="button"><i class="fa-solid fa-briefcase"></i> &nbsp; Find Direct Posts</summary>
+      <summary aria-haspopup="listbox" role="button"><i class="fa-solid fa-book-open-reader"></i> &nbsp; 12th Pass</summary>
       <ul role="listbox">
-        <li><a href="Posts/Tenth.html">Tenth</a></li>
-        <li><a href="Posts/Twelth.html">Tweltveth</a></li>
-        <li><a href="Posts/Undergraduate.html">Undergraduate</a></li>
+        <li onclick="parse('Twelth/Central')">Central</li>
+        <li onclick="parse('Twelth/defense')">Defense</li>
+        <li onclick="parse('Twelth/othersjob')">Others</li>
       </ul>
     </details>
+
+    <details role="list">
+      <summary aria-haspopup="listbox" role="button"><i class="fa-solid fa-briefcase"></i> &nbsp; Graduate</summary>
+      <ul role="listbox">
+        <li onclick="parse('Graduate/Allindiaservice')">Pan India Services</li>
+        <li onclick="parse('Graduate/defense')">Defense</li>
+        <li onclick="parse('Graduate/StateJob')">State Jobs</li>
+        <li onclick="parse('Graduate/StatePolice')">State Police</li>
+      </ul>
+    </details>
+    <br>
+    <ul id="list"></ul>
   </article>
-<br>
+
+  <br>
   <div align="center" id="testimonials">
     <h1>Testimonials</h1>
     <article>
-      <ul id="list"></ul>
+      <ul id="list2"></ul>
     </article>
   </div>
   <br>
   <div align="center" id="about">
     <h1>About</h1>
-    <article>Capers was created with a joint venture between three students to provide a free and simple experience to those in serious need of career advice.
-    <br>
-<a href= "https://github.com/n-ce/CAPERS"><i class="fa-brands fa-github"></i>
-</a></article>
+    <article>Capers was created with a joint venture between three students to provide a free and simple experience to those in serious need of career recommendations.
+      <br>
+      <a href="https://github.com/n-ce/CAPERS"><i class="fa-brands fa-github"></i>
+      </a>
+    </article>
   </div>
   <br>
   <br>
