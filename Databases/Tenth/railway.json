@@ -3,6 +3,7 @@
     "id": "1",
     "name": "RRB group D",
     "post": "ITI posts",
+    "agelimit":"NA",
     "salary": "Rs 22,500-rs25000",
     "location": "all over India"
   },
@@ -10,6 +11,7 @@
     "id": "2",
     "name": "RRB ALP",
     "post": "ITI posts",
+    "agelimit":"NA",
     "salary": "Rs 37000",
     "location": "all over India"
 
@@ -18,6 +20,7 @@
     "id": "3",
     "name": "RPF constable",
     "post": "constable",
+    "agelimit":"NA",
     "salary": "Rs 27100",
     "location": "all over India"
 
@@ -26,6 +29,7 @@
     "id": "4",
     "name": "DLW Apprentice  Recruitment",
     "post": "Non-ITI Apprentices",
+    "agelimit":"NA",
     "salary": "Rs 5,200-20,200 + 1,900/- GP",
     "location": "Banarasi, Uttar Pradesh"
   },
@@ -33,6 +37,7 @@
     "id": "5",
     "name": "Railway apprentice",
     "post": "ITI post",
+    "agelimit":"NA",
     "salary": "Rs 60000 to 80000",
     "location": "Western zone"
   }

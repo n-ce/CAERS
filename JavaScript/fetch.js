@@ -17,9 +17,10 @@ let parse = (fileName) => {
             `<hgroup>
           <h3>${data[i].name}</h3>
           <h4><br>
-          ${data[i].post}<br>
-          ${data[i].salary}<br>
-          ${data[i].location}<br>
+          Post : ${data[i].post}<br>
+          Age Limit : ${data[i].agelimit}<br>
+          Salary : ${data[i].salary}<br>
+          Location : ${data[i].location}<br>
           </h4>
           </hgroup>`;
           ul.appendChild(list);

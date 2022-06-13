@@ -3,14 +3,14 @@
     "id": "1",
     "name": "wbp wireless operator",
     "rank": "ASI",
-    "age limit": "18 to 28 years",
+    "agelimit": "18 to 28 years",
     "salary": "28000 to 70000 rupees "
   },
   {
     "id": "2",
     "name": "wbp ASI",
     "rank": "ASI",
-    "age limit": "18 to 25 years",
+    "agelimit": "18 to 25 years",
     "salary": "28000 to 70000 rupees"
   }
 ]

@@ -3,7 +3,7 @@
     "id": "1",
     "name": "NDA (Science background )",
     "post": "Stipend during the training of the candidates in IMA",
-    "age limit": "17 to 19 years",
+    "agelimit": "17 to 19 years",
     "salary": "56000 to 250000 rupees"
 
   },
@@ -11,13 +11,13 @@
     "id": "2",
     "name": "SSC GD",
     "post": "BSF,CRPF,CISF,ASSAM RIFLES etc",
-    "age limit": "18 to 25 years",
+    "agelimit": "18 to 25 years",
     "salary": "25000 to 69000"
   },
   {
     "id": "3",
     "name": "airforce(X AND Y) ,navy,ICG(Indian coast guard)",
-    "age limit": "17 to 25 years",
+    "agelimit": "17 to 25 years",
     "salary": "26000 to 92000 rupees"
   }
 ]

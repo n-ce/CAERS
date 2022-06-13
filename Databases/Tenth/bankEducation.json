@@ -1,9 +1,9 @@
 [
   {
     "id": "1",
-    "name": " Bank or education department",
+    "name": "Bank or education department",
     "post": "peon",
-    "age limit": "18 to 26 years",
+    "agelimit": "18 to 26 years",
     "salary": "18000",
     "location": "all over India"
   }
