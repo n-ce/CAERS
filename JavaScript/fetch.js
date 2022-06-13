@@ -33,7 +33,7 @@ let parse = (fileName) => {
 
 for (let j = 5; j < 17; j++)
   document.querySelectorAll('li')[j].addEventListener("click", () => {
-    document.getElementById('recommendations').style.opacity= '100%';
+    document.getElementById('recommendations').style.display='block';
     location.href = '#recommendations';
     for (let k = 1; k < 4; k++)
       if (document.querySelectorAll('details')[k].hasAttribute('open') == true) {
