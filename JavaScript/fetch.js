@@ -30,7 +30,7 @@ let parse = (fileName) => {
 
 // list collapse strategy
 
-for (let j = 2; j < 17; j++)
+for (let j = 5; j < 17; j++)
   document.querySelectorAll('li')[j].addEventListener("click", () => {
     document.getElementById('recommendations').style.opacity= '100%';
     location.href = '#recommendations';
